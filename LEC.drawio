@@ -20,10 +20,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IVN0ngq9CCn2yWX77J6Y-2" value="Lệnh di chuyển" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IVN0ngq9CCn2yWX77J6Y-5" value="Nhấn nút thả hạt" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="300" width="170" height="80" as="geometry" />
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IVN0ngq9CCn2yWX77J6Y-5" target="IVN0ngq9CCn2yWX77J6Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="IVN0ngq9CCn2yWX77J6Y-8">
+          <mxGeometry x="0.0359" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IVN0ngq9CCn2yWX77J6Y-5" target="IVN0ngq9CCn2yWX77J6Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="IVN0ngq9CCn2yWX77J6Y-11">
+          <mxGeometry x="-0.4737" y="-1" relative="1" as="geometry">
+            <mxPoint x="20" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-5" value="Gieo hạt" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IVN0ngq9CCn2yWX77J6Y-10" target="IVN0ngq9CCn2yWX77J6Y-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN0ngq9CCn2yWX77J6Y-10" value="Servo gieo hạt chạy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
